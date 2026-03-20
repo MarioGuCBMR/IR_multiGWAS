@@ -1,0 +1,4 @@
+module load gcc/11.2.0
+module load R/4.3.1
+
+Rscript /projects/kilpelainen-AUDIT/data/tools/fine_mapping_carma/code/run_fine_mapping_carma_1K.R /maps/projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2025/code/8_fine_mapping_annotation/2_running_carma/1_carma_info.cfg

@@ -1,0 +1,8 @@
+#! /bin/bash
+#$ -S /bin/bash
+#$ -J 'cS2G fine-mapping test 11-9-2023'
+
+module load gcc/11.2.0
+module load R/4.3.1
+
+Rscript /projects/kilpelainen-AUDIT/data/tools/cS2G/code/S2G.R /projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2025/code/8_fine_mapping_annotation/3_gene_prioritization/configuration_file_S2G.txt

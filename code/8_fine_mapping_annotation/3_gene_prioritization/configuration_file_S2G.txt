@@ -1,0 +1,12 @@
+#Set the path to the input file with all variants that you want to introduce in the cS2G pipeline. 
+#The file must consist of at least one column called "Coord" where the chrX:position of each variant in hg19 is supplied(e.g.,chr19:18304700) for European ancestry. 
+#When providing fine-mapped variants as input, a second column called "PIP" can also be added.
+/projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2025/output/8_fine_mapping/all_loci/gene_prioritization/input/variants_4_cS2G.txt
+#Indicate whether the input variants are fine-mapped variants or not (specify YES or NO). NO is set as default.
+YES
+#Indicate the cS2G threshold for gene prioritization. It must be a numeric value between 0 and 1. ">0.5" is set as default to be sure that the SNP has only one candidate causal gene (best gene approach).
+0.1
+##Indicate whether you want to output all the SNP-Gene links, before applying the cS2G thereshold. NO is set as default.
+YES
+#Indicate the output path
+/projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2025/output/8_fine_mapping/all_loci/gene_prioritization/output
