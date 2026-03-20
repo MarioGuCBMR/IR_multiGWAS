@@ -1,0 +1,11 @@
+module load gcc/11.2.0
+module load R/4.3.1
+
+cd /maps/projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_functional_annotation/code/0_novel_variants/3_ld_clumping
+
+Rscript /projects/kilpelainen-AUDIT/data/tools/ld_clump_1KG/code/run_ld_clump_1K.R clumping_ir_lotta.cfg
+Rscript /projects/kilpelainen-AUDIT/data/tools/ld_clump_1KG/code/run_ld_clump_1K.R clumping_ir_magic.cfg
+Rscript /projects/kilpelainen-AUDIT/data/tools/ld_clump_1KG/code/run_ld_clump_1K.R clumping_ir_deforest.cfg
+Rscript /projects/kilpelainen-AUDIT/data/tools/ld_clump_1KG/code/run_ld_clump_1K.R clumping_ir_oliveri.cfg
+Rscript /projects/kilpelainen-AUDIT/data/tools/ld_clump_1KG/code/run_ld_clump_1K.R clumping_ir_t2d.cfg
+

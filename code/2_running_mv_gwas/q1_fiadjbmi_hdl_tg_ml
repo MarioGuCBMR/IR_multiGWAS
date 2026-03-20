@@ -1,0 +1,9 @@
+#! /bin/bash
+#$ -S /bin/bash
+#SBATCH -J 'mv_gwas_fiadjbmi_hdl_tg_ml'
+#SBATCH -D  /projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2023/output/3_mv_gwas
+
+module load gcc/11.2.0
+module load R/4.3.1
+
+Rscript /projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2023/code/2_running_mv_gwas/2_run_fiadjbmi_hdl_tg_ml.R

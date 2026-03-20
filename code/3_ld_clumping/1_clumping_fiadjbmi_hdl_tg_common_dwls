@@ -1,0 +1,4 @@
+module load gcc/11.2.0
+module load R/4.3.1
+
+Rscript /projects/kilpelainen-AUDIT/data/tools/ld_clump_1KG/code/run_ld_clump_1K.R /maps/projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2023/code/3_ld_clumping/2_clumping/2_fiadjbmi_hdl_tg/clumping_fiadjbmi_hdl_tg_common_dwls.cfg
