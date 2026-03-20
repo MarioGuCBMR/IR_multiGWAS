@@ -42,22 +42,30 @@ All results are written to the `output/` directory.
 We provide the full output folder structure in this repository so users can:
 - Reproduce all intermediate steps  
 - Regenerate intermediary files  
-- Fully replicate the published results  
+- Fully replicate the published results
+
+**NOTE: we are currently working to provide the raw data for all analyses, even if they are from third-parties. This will take form of a private zenodo link that can be accessed by asking the main author: mario.garcia.urena@sund.ku.dk**
 
 ---
 
 ## Software Requirements
 
 Most analyses were performed using: R/4.3.1
-Other softwares that have been utilized and should be installed include:
+Here we specify the version utilized for the softwares with more than one release: 
 
 ```
-CPASSOC - version
-LDSC - version
-DEPICT - version
-GoShifter - version
-CHEERS - version
-HOMER - version
+G-SEM: version 0.05
+otargen: version 1.0.0
+gtx: version 0.08
+bigsnpr: version 1.12.18
+Haploreg: version 4.2.0
+DEPICT - version 1 rel194
+GoShifter - version 0.3
+CHEERS - v2019
+sva R package: version 3.35.2
+HOMER - version 4.11.1
+TwoSampleMR: version 0.5.7
+gprofiler2 version 0.2.3
 ```
 
 
