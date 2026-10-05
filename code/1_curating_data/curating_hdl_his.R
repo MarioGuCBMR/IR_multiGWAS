@@ -41,7 +41,7 @@ pos_parser <- function(chr_pos){
 #Loading files#
 ###############
 
-project_path <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/" #change it with your own path.
+project_path <- "" #change it with your own path.
 
 setwd(project_path)
 
