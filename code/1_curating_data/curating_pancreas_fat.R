@@ -19,7 +19,7 @@ library(tidyverse)
 
 #We are gonna load the pancreas_fat from 2024. 
 
-project_path <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/" #change it with your own path.
+project_path <- "" #change it with your own path.
 
 setwd(project_path)
 
