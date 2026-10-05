@@ -29,11 +29,11 @@ rsid_parser <- function(id){
 #STRATEGY: WE ARE GOING TO USE THE BUILD 37 DATA FROM THE META-ANALYSIS WITH UKBB AS FIRST CHECK#
 #################################################################################################
 
-project_path <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2023/" #change it with your own path.
+project_path <- "" #change it with your own path.
 
 setwd(project_path)
 
-ref <- fread("../../mho_variants_common_info/raw_data/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz")
+ref <- fread("raw_data/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz")
 
 ckd <- fread("raw_data/finngen_R9_N14_CHRONKIDNEYDIS.gz")
 t2d <- fread("raw_data/finngen_R9_T2D.gz")
