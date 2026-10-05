@@ -41,7 +41,7 @@ formatting_data_4_clumping <- function(ss_gw){
 #Loading data#
 ##############
 
-setwd("N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/")
+setwd("")
 
 fiadjbmi_hdl_tg <- fread("output/2_mv_gwas/fiadjbmi_hdl_tg_ml.txt")
 
