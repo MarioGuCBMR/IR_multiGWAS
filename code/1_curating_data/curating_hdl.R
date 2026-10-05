@@ -41,7 +41,7 @@ pos_parser <- function(chr_pos){
 #Loading files#
 ###############
 
-project_path <- "J:/CBMR/SUN-CBMR-Kilpelainen-Group/insulin_resistance_variants_common_info/" #change it with your own path.
+project_path <- "" #change it with your own path.
 
 setwd(project_path)
 
