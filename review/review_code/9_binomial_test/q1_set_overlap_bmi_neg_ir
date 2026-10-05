@@ -1,0 +1,11 @@
+#! /bin/bash
+#$ -S /bin/bash
+#SBATCH -J 'overlap_matches_4_permutations_bmi_neg_ir'
+#SBATCH --cpus-per-task=8  # or however many you want
+
+module load gcc/11.2.0
+module load R/4.3.1
+
+cd /projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2025/review/review_code/9_binomial_test
+
+Rscript 2_set_up_overlap_for_test_and_background_bmi_neg_IR.R
