@@ -21,7 +21,7 @@ library(ggrepel)
 #Let's obtain the LDSC output#
 ##############################
 
-path_2_input <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/"
+path_2_input <- ""
 
 setwd(path_2_input)
 
@@ -318,7 +318,7 @@ library(patchwork)
 p_all <- p_1 + p_2 + plot_layout(ncol = 1)
 
 ggsave(
-  filename = "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/manuscript/figures/manhattan_plots_lotta_vs_novel.svg",
+  filename = "manuscript/figures/manhattan_plots_lotta_vs_novel.svg",
   plot = p_all,
   width = 25,
   height = 20,
@@ -327,7 +327,7 @@ ggsave(
 )
 
 ggsave(
-  filename = "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/manuscript/figures/manhattan_plots_lotta_vs_novel.tif",
+  filename = "manuscript/figures/manhattan_plots_lotta_vs_novel.tif",
   plot = p_all,
   width = 25,
   height = 20,
