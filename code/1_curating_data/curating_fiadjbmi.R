@@ -20,7 +20,7 @@ library(tidyverse)
 
 #We are gonna load the FIAdjBMI from 2021. 
 
-project_path <- "N:/SUN-CBMR-Kilpelainen-Group/insulin_resistance_variants_common_info/" #change it with your own path.
+project_path <- "" #change it with your own path.
 
 setwd(project_path)
 
