@@ -47,7 +47,7 @@ curated_2_munging <- function(curated_df){
 
 #Running LDSC:
 
-path_2_input <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025"
+path_2_input <- ""
 
 setwd(path_2_input)
 
@@ -71,9 +71,9 @@ fwrite(tg_4_munging, "output/1_curated_gwas/tg_4_munging.txt", col.names = TRUE,
 #STEP 2: let's run the munging#
 ###############################
 
-dir.create("N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/output/2_mv_gwas/munged_data")
+dir.create("output/2_mv_gwas/munged_data")
 
-setwd("N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/output/2_mv_gwas/munged_data") #this works
+setwd("output/2_mv_gwas/munged_data") #this works
 
 files<-c("../../1_curated_gwas/fiadjbmi_4_munging.txt", "../../1_curated_gwas/hdl_4_munging.txt", "../../1_curated_gwas/tg_4_munging.txt")
 
