@@ -1,4 +1,10 @@
 module load gcc/11.2.0
 module load R/4.3.1
 
-Rscript /projects/kilpelainen-AUDIT/data/tools/ld_clump_1KG/code/run_ld_clump_1K.R /maps/projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2023/code/3_ld_clumping/2_clumping/2_fiadjbmi_hdl_tg/clumping_fiadjbmi_hdl_tg_common_dwls.cfg
+WD="" #here you WD
+
+#NOTE: this is an internal tool developed by Mario Garcia Urena where we perform LD-clumping with 1000G Phase 3 Version 5 panel and plink 1.9.
+#The reason behind using this panel is that it is sensitive to trialleic SNPs and does not remove indels. 
+#For more information on how to generate this panel please visit: https://github.com/MarioGuCBMR/Readying_1000G_phase5_v3
+
+Rscript $WD/code/run_ld_clump_1K.R $WD/code/3_ld_clumping/clumping_fiadjbmi_hdl_tg_common_dwls.cfg
