@@ -2,7 +2,7 @@
 #INTRODUCTION#
 ##############
 
-#This code performs genetic correlations
+#This code performs DWLS common factor
 
 ###################
 #Loading libraries#
@@ -16,11 +16,11 @@ library(GenomicSEM)
 #Let's obtain the LDSC output#
 ##############################
 
-path_2_input <- "output/2_models/2_munged_data/fiadjbmi_hdl_tg/"
+path_2_input <- "output/2_models/fiadjbmi_hdl_tg"
 
 setwd(path_2_input)
 
-LDSCoutput <- readRDS("../../3_gc/fiadjbmi_hdl_tg/fiadjbmi_hdl_tg.rds")
+LDSCoutput <- readRDS("3_gc/fiadjbmi_hdl_tg/fiadjbmi_hdl_tg.rds")
 
 all_sumstats <- fread("../../../3_mv_gwas/fiadjbmi_hdl_tg/fiadjbmi_hdl_tg_4_mvgwas.txt")
 
