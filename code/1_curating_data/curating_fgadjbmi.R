@@ -20,7 +20,7 @@ library(tidyverse)
 
 #We are gonna load the fgadjbmi from 2021. 
 
-project_path <- "J:/CBMR/SUN-CBMR-Kilpelainen-Group/Team projects/Hermina&Mario&MariaJose//" #change it with your own path.
+project_path <- "" #change it with your own path.
 
 setwd(project_path)
 
