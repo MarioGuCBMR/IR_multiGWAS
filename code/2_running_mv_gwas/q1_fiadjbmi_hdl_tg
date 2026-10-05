@@ -6,4 +6,6 @@
 module load gcc/11.2.0
 module load R/4.3.1
 
-Rscript /projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2023/code/2_running_mv_gwas/2_run_fiadjbmi_hdl_tg.R
+$WD="" #your working directory
+
+Rscript $WD/code/2_running_mv_gwas/2_run_fiadjbmi_hdl_tg.R
