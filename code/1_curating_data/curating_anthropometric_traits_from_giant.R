@@ -153,7 +153,7 @@ recursively_curate_fat<- function(list_of_files, final_names, dict){
 
 #We are gonna load the tg_hdl_ratio from 2024. 
 
-project_path <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2023/" #change it with your own path.
+project_path <- "" #change it with your own path.
 
 setwd(project_path)
 
