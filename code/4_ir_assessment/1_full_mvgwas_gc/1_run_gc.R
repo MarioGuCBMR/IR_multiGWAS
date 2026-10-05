@@ -95,7 +95,7 @@ curated_2_binary <- function(curated_df){
 
 #Running LDSC:
 
-path_2_input <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2023"
+path_2_input <- ""
 
 setwd(path_2_input)
 
@@ -121,10 +121,10 @@ hc <- fread("output/1_curated_data/hc_curated.txt")
 hcadjbmi <- fread("output/1_curated_data/hcadjbmi_giant_curated.txt")
 
 #Glycemic...
-#fgadjbmi <- fread("../../Team projects/Hermina&Mario&MariaJose/output/1_curated_data/fgadjbmi_curated.txt")
-#thgadjbmi <- fread("../../Team projects/Hermina&Mario&MariaJose/output/1_curated_data/thgadjbmi_curated.txt")
-isiadjbmi <- fread("../../Team projects/Hermina&Mario&MariaJose/output/1_curated_data/isiadjbmi_curated.txt")
-ifcadjbmi <- fread("../../Team projects/Hermina&Mario&MariaJose/output/1_curated_data/ifcadjbmi_curated.txt") #needed to recover variants! - we won't use it here
+#fgadjbmi <- fread("/output/1_curated_data/fgadjbmi_curated.txt")
+#thgadjbmi <- fread("output/1_curated_data/thgadjbmi_curated.txt")
+isiadjbmi <- fread("output/1_curated_data/isiadjbmi_curated.txt")
+ifcadjbmi <- fread("output/1_curated_data/ifcadjbmi_curated.txt") #needed to recover variants! - we won't use it here
 
 #Diseases...
 
