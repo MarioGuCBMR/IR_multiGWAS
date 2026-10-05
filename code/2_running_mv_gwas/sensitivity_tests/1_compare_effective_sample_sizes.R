@@ -15,7 +15,7 @@ library(tidyverse)
 #Loading curated datasets for both#
 ###################################
 
-path_2_input <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/"
+path_2_input <- ""
 
 setwd(path_2_input)
 
