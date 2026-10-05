@@ -1,0 +1,9 @@
+#! /bin/bash
+#$ -S /bin/bash
+#SBATCH -J 'coloc_ir_muscle'
+#SBATCH --cpus-per-task=8  # or however many you want
+
+module load gcc/11.2.0
+module load R/4.3.1
+
+Rscript /projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2025/review/review_code/5_colocalization_and_gtex_checks/3_coloc_gtex_muscle.R

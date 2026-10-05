@@ -1,0 +1,11 @@
+#! /bin/bash
+#$ -S /bin/bash
+#SBATCH -J 'coloc_ir_asat'
+#SBATCH --cpus-per-task=20  # or however many you want
+#SBATCH --time=120:00:00
+#SBATCH --mem=20G
+
+module load gcc/11.2.0
+module load R/4.3.1
+
+Rscript /projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2025/review/review_code/5_colocalization_and_gtex_checks/1_coloc_gtex_asat.R
