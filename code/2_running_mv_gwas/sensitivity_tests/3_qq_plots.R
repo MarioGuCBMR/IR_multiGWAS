@@ -36,7 +36,7 @@ lambda_compute= function(pvals){
 #Loading data#
 ##############
 
-path_2_input <- "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/"
+path_2_input <- ""
 
 setwd(path_2_input)
 
@@ -178,7 +178,7 @@ plot <- ggplot(all_pvals, aes(x = expected, y = observed, color = trait)) +
 ##############################
 
 ggsave(
-  filename = "N:/SUN-CBMR-Kilpelainen-Group/Mario_Tools/IR_GSEM_2025/manuscript/figures/qqplots_combined_10000_shared_LOGP_max_20.svg",
+  filename = "manuscript/figures/qqplots_combined_10000_shared_LOGP_max_20.svg",
   plot = plot,
   width = 12,
   height = 9,
