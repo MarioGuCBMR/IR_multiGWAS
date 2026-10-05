@@ -2,7 +2,7 @@
 #INTRODUCTION#
 ##############
 
-#This code performs genetic correlations
+#This code performs ML common factor GWAS
 
 ###################
 #Loading libraries#
@@ -16,13 +16,13 @@ library(GenomicSEM)
 #Let's obtain the LDSC output#
 ##############################
 
-path_2_input <- "output/2_models/2_munged_data/fiadjbmi_hdl_tg/"
+path_2_input <- "output/2_mv_gwas"
 
 setwd(path_2_input)
 
-LDSCoutput <- readRDS("../../3_gc/fiadjbmi_hdl_tg/fiadjbmi_hdl_tg.rds")
+LDSCoutput <- readRDS("fiadjbmi_hdl_tg.rds")
 
-all_sumstats <- fread("../../../3_mv_gwas/fiadjbmi_hdl_tg/fiadjbmi_hdl_tg_4_mvgwas.txt")
+all_sumstats <- fread("fiadjbmi_hdl_tg_4_mvgwas.txt")
 
 ########################
 #Let's run the analysis#
@@ -30,4 +30,4 @@ all_sumstats <- fread("../../../3_mv_gwas/fiadjbmi_hdl_tg/fiadjbmi_hdl_tg_4_mvgw
 
 common_factor <- commonfactorGWAS(covstruc = LDSCoutput, SNPs = all_sumstats, estimation = "ML", cores = NULL, toler = 1e-100, SNPSE = 0.0005, parallel = FALSE, GC="conserv")
 
-fwrite(common_factor, "../../../3_mv_gwas/fiadjbmi_hdl_tg/fiadjbmi_hdl_tg_ml.txt")
+fwrite(common_factor, "fiadjbmi_hdl_tg_ml.txt")
