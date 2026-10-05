@@ -16,7 +16,7 @@ library(GenomicSEM)
 #Let's obtain the LDSC output#
 ##############################
 
-path_2_input <- "/projects/kilpelainen-AUDIT/people/zlc436/IR_GSEM_2023/output/2_models/2_munged_data/fiadjbmi_hdl_tg/"
+path_2_input <- "output/2_models/2_munged_data/fiadjbmi_hdl_tg/"
 
 setwd(path_2_input)
 
