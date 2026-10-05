@@ -20,9 +20,9 @@ path_2_input <- "output/2_mv_gwas"
 
 setwd(path_2_input)
 
-LDSCoutput <- readRDS("/fiadjbmi_hdl_tg.rds")
+LDSCoutput <- readRDS("fiadjbmi_hdl_tg.rds")
 
-all_sumstats <- fread("/fiadjbmi_hdl_tg_4_mvgwas.txt")
+all_sumstats <- fread("fiadjbmi_hdl_tg_4_mvgwas.txt")
 
 ########################
 #Let's run the analysis#
