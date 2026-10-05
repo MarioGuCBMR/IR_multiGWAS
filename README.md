@@ -8,7 +8,7 @@ This project implements a comprehensive **multi-trait GWAS framework** to identi
 Full GWAS summary statistics produced with G-SEM can be found in the following zenodo repository:
 Independent IR loci and their G-SEM and CPASSOC association can be found in Supplementary Table 2 of the manuscript
 
-**NOTE** this repository is still under construction. Our publication will soon be sent for reviewing 
+**EDIT 02/10/2026** this repository is under heavy reconstruction after adding new analyses based on the reviewer's comments. For reproducibility and transparency, we have isolated the code and output in a new folder named review. We are currently working to process the code and remove all institutional paths, as suggested by the reviewers. 
 
 ---
 
